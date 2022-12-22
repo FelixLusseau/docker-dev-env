@@ -1,2 +1,3 @@
 # docker-dev-env
-Development environment
+
+Development environment to run tests for C and compilation projects.
