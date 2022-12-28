@@ -7,17 +7,22 @@ RUN apt-get update && apt-get install -y \
     locales \
     language-pack-fr \
     gcc \
+    g++ \
     make \
     flex \
     bison \
+    spim \
     git \
     wget \
     curl \
     python3 \
+    gdb \
     valgrind \
     lcov \
     strace \
     vim \
+    openjdk-19-jdk \
+    openjdk-19-jre \
     && rm -rf /var/lib/apt/lists/*
 
 RUN locale-gen "fr_FR.UTF-8"
