@@ -23,7 +23,7 @@ RUN apt-get update && apt-get install -y \
     vim \
     openjdk-19-jdk \
     openjdk-19-jre \
-    && rm -rf /var/lib/apt/lists/*
+    && rm -rf /var/lib/apt/lists/* \
     && rm -rf /var/cache/apt/archives/
 
 RUN locale-gen "fr_FR.UTF-8"
